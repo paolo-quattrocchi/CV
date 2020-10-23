@@ -1,0 +1,44 @@
+.color{
+    background-color: rgb(66,73,83);
+}
+.title{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 800;
+}
+.subtitle{
+    font-size: 20px;
+    font-weight: 700;
+}
+.qualifications{
+    font-size: 17px;
+    font-weight: 550;
+}
+.list{
+    padding-bottom: 10px;
+}
+.progress{
+    height: 8px;
+    width: 200px;
+    padding: 0px; 
+    margin-top: 10px;
+}
+.progress-bar{
+    background-color: rgb(66,73,83);
+}
+.progress-value{
+    animation: load 2s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 4px;
+}
+@keyframes load {
+    0% { width: 0; }
+    100% { width: 50%, 61%; }
+  }
+.test{
+    padding-left: 17px;
+    padding-top: 7px;
+}
+.test2{
+    margin-bottom: 0px;
+}
